@@ -1,1 +1,1 @@
-from hexagonal_flask.server import app
+from hexagonal_flask.server import create_app
