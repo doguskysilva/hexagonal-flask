@@ -1,5 +1,6 @@
-from hexagonal_flask.logic.league import filter_english_leagues
 import pytest
+
+from hexagonal_flask.logic.league import filter_english_leagues
 
 
 @pytest.mark.parametrize(

@@ -1,6 +1,7 @@
 import os
-from flask import Flask
-from flask import jsonify
+
+from flask import Flask, jsonify
+
 import hexagonal_flask.controllers.leagues as controllers_leagues
 
 

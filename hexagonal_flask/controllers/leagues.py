@@ -1,5 +1,5 @@
-from hexagonal_flask.diplomat import http_out
 import hexagonal_flask.logic.league as logic_league
+from hexagonal_flask.diplomat import http_out
 
 
 def english_leagues():
