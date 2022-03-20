@@ -8,4 +8,5 @@ def football_league(country: str):
     }
 
     response = requests.request("GET", url, headers=headers)
-    return response.json()
+
+    return response.json() if response.status_code == 200 else []
