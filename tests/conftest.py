@@ -1,7 +1,7 @@
 import pytest
 from flask import Flask
 
-from hexagonal_flask.server import create_app
+from hexagonal_flask import create_app
 
 
 @pytest.fixture
