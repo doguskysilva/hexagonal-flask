@@ -1,4 +1,4 @@
-from hexagonal_flask.server import create_app
+from hexagonal_flask import create_app
 
 if __name__ == "__main__":
     app = create_app()
